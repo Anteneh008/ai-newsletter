@@ -3,6 +3,7 @@ import { Features } from "@/components/landing/Features";
 import { Hero } from "@/components/landing/Hero";
 import { HowItWorks } from "@/components/landing/HowItWorks ";
 import { CTA } from "@/components/landing/CTA";
+import { Pricing } from "@/components/landing/Pricing";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         </div>
       </SignedIn>
 
-      {/* <Pricing /> */}
+      <Pricing />
       <CTA />
     </main>
   );
