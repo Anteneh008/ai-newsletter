@@ -1,12 +1,13 @@
 import { SignedIn, UserButton } from "@clerk/nextjs";
+import { Features } from "@/components/landing/Features";
 import { Hero } from "@/components/landing/Hero";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white dark:bg-black">
       <Hero />
-      {/* <Features />
-      <HowItWorks /> */}
+      <Features />
+      {/* <HowItWorks /> */}
 
       <SignedIn>
         <div className="fixed top-4 right-4">
