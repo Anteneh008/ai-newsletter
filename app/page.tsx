@@ -1,8 +1,8 @@
 import { SignedIn, UserButton } from "@clerk/nextjs";
+import { CTA } from "@/components/landing/CTA";
 import { Features } from "@/components/landing/Features";
 import { Hero } from "@/components/landing/Hero";
 import { HowItWorks } from "@/components/landing/HowItWorks ";
-import { CTA } from "@/components/landing/CTA";
 import { Pricing } from "@/components/landing/Pricing";
 
 export default function Home() {

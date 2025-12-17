@@ -1,6 +1,6 @@
-import DashboardHeader from "@/components/dashboard/dashboard-header";
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import DashboardHeader from "@/components/dashboard/dashboard-header";
 
 async function DashboardLayout({ children }: { children: React.ReactNode }) {
   const { has } = await auth();
